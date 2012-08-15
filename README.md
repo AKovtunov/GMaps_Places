@@ -28,7 +28,7 @@ Or install it yourself as:
     `r.each {|result|`
     `place.details(result["reference"], "name", "address_components")#, "formatted_phone_number", "rating", "reviews", "geometry", "address_components", "events" )`
     `puts "Reference: #{place.reference}"`
-   ` puts "Status: #{place.status}"  `
+    `puts "Status: #{place.status}"`
     `puts "Place name:  #{place.name}"`
     `puts "      Place rating: #{place.rating}"`
     `puts "      Place geo latitude #{place.geometry.lat}"`
@@ -40,14 +40,12 @@ Or install it yourself as:
     `}`
     `puts "      Place country is: #{place.address_components.country}"`
     `puts "      Events_id's: #{place.events[0].event_id}"`
-
     `}`
-
-`if place.errors.length > 0`
-    `puts "WHERE ARE #{place.errors.length} ERRORS CATCHED:"`
-    `place.errors.each {|error|`
-    `puts "\n #{error.message} IN : \n #{error.backtrace.inspect}"}`
-`end`
+    `if place.errors.length > 0`
+        `puts "WHERE ARE #{place.errors.length} ERRORS CATCHED:"`
+        `place.errors.each {|error|`
+        `puts "\n #{error.message} IN : \n #{error.backtrace.inspect}"}`
+    `end`
 
 
 ## Contributing
