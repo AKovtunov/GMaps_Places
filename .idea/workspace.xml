@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4ce5108-7a8b-496b-b8ad-6172c6d071bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/GMaps_Places.rb" afterPath="$PROJECT_DIR$/lib/GMaps_Places.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/GMaps_Places_spec.rb" afterPath="$PROJECT_DIR$/spec/GMaps_Places_spec.rb" />
     </list>
     <ignored path="gmaps_Gem.iws" />
@@ -23,19 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GMaps_Places_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GMaps_Places_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/GMaps_Places_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="76" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="14" column="60" selection-start="389" selection-end="410" vertical-scroll-proportion="0.48723897">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GMaps_Places.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GMaps_Places.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/GMaps_Places.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="74" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.7563805">
+            <state line="83" column="74" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,9 +68,9 @@
         <option value="$PROJECT_DIR$/lib/gmaps_Gem.rb" />
         <option value="$PROJECT_DIR$/GMaps_Places.gemspec" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/spec/GMaps_Places_spec.rb" />
         <option value="$PROJECT_DIR$/lib/test.rb" />
         <option value="$PROJECT_DIR$/lib/GMaps_Places.rb" />
+        <option value="$PROJECT_DIR$/spec/GMaps_Places_spec.rb" />
       </list>
     </option>
   </component>
@@ -442,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/GMaps_Places_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="76" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="57" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
@@ -458,7 +449,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/GMaps_Places.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="74" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.7563805">
+        <state line="83" column="74" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/GMaps_Places_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="60" selection-start="389" selection-end="410" vertical-scroll-proportion="0.48723897">
           <folding />
         </state>
       </provider>
