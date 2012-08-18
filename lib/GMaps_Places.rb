@@ -5,7 +5,7 @@ module GMaps_Places
     attr_reader :key
     attr_accessor :status, :errors, :geometry, :name, :icon, :reference, :events, :vicinity, :types, :id, :formatted_phone_number, :international_phone_number, :formatted_address, :address_components, :street_number, :street, :city, :region, :postal_code, :country, :rating, :url, :cid, :website, :reviews
 
-    def initialize (api_key, *smth)
+    def initialize (api_key)
       @key = api_key
       @errors = Array.new
     end
