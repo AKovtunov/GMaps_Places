@@ -12,7 +12,7 @@ end
 
 describe GMaps_Places do
   before (:all) do
-    @place = GMaps_Places::Places.new('PUT_YOUR_OWN_KEY_HERE')
+    @place = GMaps_Places::Places.new('AIzaSyArMjXaIJq10VlSHXBt9I0ikcSAeaa23tc')
   end
   context "#key" do
     it "should return key value" do

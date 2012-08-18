@@ -72,6 +72,7 @@ module GMaps_Places
                   instance_variable_set("@#{param}".to_sym, geo)
                 when "reviews"
                   reviews = Array.new
+                  if result_w_param.nil? == false
                   result_w_param.each {|review|
                     reviews << Review.new(review["aspects"][0]["type"],
                               review["aspects"][0]["rating"],
@@ -80,6 +81,14 @@ module GMaps_Places
                               review["text"],
                               review["time"])
                   }
+                  else
+                    reviews << Review.new(     "EMPTY",
+                                               "EMPTY",
+                                               "EMPTY",
+                                               "EMPTY",
+                                               "EMPTY",
+                                               "EMPTY")
+                  end
                   instance_variable_set("@#{param}".to_sym, reviews)
                 when "events"
                   events = Array.new
