@@ -19,6 +19,8 @@ Or install it yourself as:
 ## Usage
 
 ###All usage was written in tests. But at first, you must add you own Google Developer key (from Google Console).
+###Don't forget to put params in details function!
+Params are: "status", "errors", "geometry", "name", "icon", "reference", "events", "vicinity", "types", "id", "formatted_phone_number", "international_phone_number", "formatted_address", "address_components", "street_number", "street", "city", "region", "postal_code", "country", "rating", "url", "cid", "website", "reviews"
 ###Sample of usage:
 
     place = GMaps_Places::Places.new('YOUR_GOOGLE_API_KEY')
@@ -26,7 +28,7 @@ Or install it yourself as:
     r = place.search(:text, gets.to_s)
     or r=place.search(:place, -33.8670522, 151.1957362, 500, "food")
     r.each {|result|
-    place.details(result["reference"], "name", "address_components")#, "formatted_phone_number", "rating", "reviews", "geometry", "address_components", "events" )
+    place.details(result["reference"], "name", "address_components", "formatted_phone_number", "rating", "reviews", "geometry", "address_components", "events" )
     puts "Reference: #{place.reference}"
     puts "Status: #{place.status}"
     puts "Place name:  #{place.name}"
